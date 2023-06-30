@@ -16,5 +16,8 @@ select Salary from employee_payroll where name='Sanju';
 select * from employee_payroll where satrtDate between cast('2022-02-09' as date) and getdate();
 
 
-
+--UC-6 Alter-Update 
+select * from employee_payroll;
+alter table employee_payroll add Gender char(1);
+update employee_payroll set Gender='M';
  
