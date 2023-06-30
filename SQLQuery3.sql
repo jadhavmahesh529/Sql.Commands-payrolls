@@ -7,3 +7,6 @@ create table employee_payroll(empid int identity (1,1) primary key, name varchar
 
 --UC3 insert new record 
 insert into employee_payroll values('Sanju','25000','2022-02-09'),('Sagar','30000','2022-02-20');
+
+--UC4 Retrving Data from table 
+select * from employee_payroll
