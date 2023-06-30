@@ -29,4 +29,9 @@ select min(salary) as Minimum from employee_payroll;
 select avg(salary) as AverageSalary from employee_payroll;
 select count(salary) as NumOfEmployees from employee_payroll;
 select count(salary) as NumberOfEmployee,Gender from employee_payroll group by Gender;
- 
+
+--UC8-Ability to add table and store 
+ alter table employee_payroll add Phone bigint;
+select * from employee_payroll;
+alter table employee_payroll add Address varchar(200);
+alter table employee_payroll add Department varchar(200);
