@@ -10,3 +10,11 @@ insert into employee_payroll values('Sanju','25000','2022-02-09'),('Sagar','3000
 
 --UC4 Retrving Data from table 
 select * from employee_payroll
+
+--UC5-View Data
+select Salary from employee_payroll where name='Sanju';
+select * from employee_payroll where satrtDate between cast('2022-02-09' as date) and getdate();
+
+
+
+ 
